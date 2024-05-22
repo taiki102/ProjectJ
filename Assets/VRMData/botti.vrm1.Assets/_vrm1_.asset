@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88684271e27adb843b6570957c9e7637, type: 3}
+  m_Name: _vrm1_
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: -1728013695380148634, guid: f5a676eea94c1bc418e1a9ebd43afcba, type: 3}
+  Meta:
+    Name: botti
+    Version: 0.1
+    Authors:
+    - rin
+    CopyrightInformation: 
+    ContactInformation: 
+    References: []
+    ThirdPartyLicenses: 
+    Thumbnail: {fileID: 2800000, guid: 233e897ca5d0cf54895faab8feb613a1, type: 3}
+    AvatarPermission: 0
+    ViolentUsage: 0
+    SexualUsage: 0
+    CommercialUsage: 0
+    PoliticalOrReligiousUsage: 0
+    AntisocialOrHateUsage: 0
+    CreditNotation: 0
+    Redistribution: 0
+    Modification: 0
+    OtherLicenseUrl: 
+  Expression:
+    Happy: {fileID: 11400000, guid: 3c46a9b94ae775b4b91416d45e8c884b, type: 2}
+    Angry: {fileID: 11400000, guid: d819abccaa40ac14fb9f0449ca45d025, type: 2}
+    Sad: {fileID: 11400000, guid: 16a8e451526e9f24b99a486c8507adcb, type: 2}
+    Relaxed: {fileID: 11400000, guid: 4924b5c10e0b426468b2cb8fe17b3718, type: 2}
+    Surprised: {fileID: 11400000, guid: 4f3ccbb4facec9c4fa893abfd99510ce, type: 2}
+    Aa: {fileID: 11400000, guid: a19410fb0207e8244a87a6af4e7f3726, type: 2}
+    Ih: {fileID: 11400000, guid: 42a0d93bafa90f4438e71b77d06e4125, type: 2}
+    Ou: {fileID: 11400000, guid: 801f0b49f55ecbe4faf4aedfea35695a, type: 2}
+    Ee: {fileID: 11400000, guid: 1eba8d4b94ad1a74aad2f719d21bf5fd, type: 2}
+    Oh: {fileID: 11400000, guid: 88928c91c432b484cb7b67f9944c93c7, type: 2}
+    Blink: {fileID: 11400000, guid: f46bf6675850abf4985c38c221341365, type: 2}
+    BlinkLeft: {fileID: 11400000, guid: e76b28e7d977b3243a7f4332fdba94b6, type: 2}
+    BlinkRight: {fileID: 11400000, guid: d56c5227116e0534bad16fd3379f8555, type: 2}
+    LookUp: {fileID: 11400000, guid: 380d52a29d2e9ce45a0cefaf1c6e3ca1, type: 2}
+    LookDown: {fileID: 11400000, guid: ef9b50b380f6e1a4ebf6c86fed4ac782, type: 2}
+    LookLeft: {fileID: 11400000, guid: bf2831a8034a1af469990667af6d3d3f, type: 2}
+    LookRight: {fileID: 11400000, guid: e9aec9da9660dd4498c302f3662433c2, type: 2}
+    Neutral: {fileID: 11400000, guid: a7f42db38c66d544d97d17eb85c30f0a, type: 2}
+    CustomClips: []
+  LookAt:
+    OffsetFromHead: {x: -0, y: 0.06, z: 0}
+    LookAtType: 0
+    HorizontalOuter:
+      CurveXRangeDegree: 90
+      CurveYRangeDegree: 12
+    HorizontalInner:
+      CurveXRangeDegree: 90
+      CurveYRangeDegree: 8
+    VerticalDown:
+      CurveXRangeDegree: 90
+      CurveYRangeDegree: 10
+    VerticalUp:
+      CurveXRangeDegree: 90
+      CurveYRangeDegree: 10
+  FirstPerson:
+    Renderers:
+    - Renderer: Face
+      FirstPersonFlag: 0
+    - Renderer: Body
+      FirstPersonFlag: 0
+    - Renderer: Hair
+      FirstPersonFlag: 0
+    - Renderer: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/botti/root/0
+      FirstPersonFlag: 0
+    - Renderer: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/botti/root/1
+      FirstPersonFlag: 0
