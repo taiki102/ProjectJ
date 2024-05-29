@@ -75,3 +75,8 @@ crashlytics-build.properties
 #*.tft
 
 # Others
+Assets/Scenes/Text/MochiyPopOne-Regular SDF.asset
+Assets/Scenes/Text/NotoSansJP-Regular SDF.asset
+Assets/Scenes/Text/NotoSansJP-Regular SDF.asset.meta
+Assets/Scenes/Text/NotoSansJP-Regular.ttf
+Assets/Scenes/Text/NotoSansJP-Regular.ttf.meta

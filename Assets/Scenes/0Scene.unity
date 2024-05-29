@@ -7638,8 +7638,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081812234}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -67.6, y: 36.8, z: 64.9}
-  m_LocalScale: {x: 20.046637, y: 77.80474, z: 20.046637}
+  m_LocalPosition: {x: -67.6, y: 141, z: 64.9}
+  m_LocalScale: {x: 271.91214, y: 277.9263, z: 71.60859}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2059614531}
@@ -7730,7 +7730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fragmentPrefab: {fileID: 8220359257503245624, guid: abb89fe8a62f5954781d4f0c5487c33b, type: 3}
   numberOfPoints: 20
-  scaleRadius: 0.6
+  scaleRadius: 0.75
   minFragmentSize: 0.1
   remainingTime: 5
   fadeDuration: 5
@@ -7766,7 +7766,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081812234}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
