@@ -62,12 +62,11 @@ public class GameManager : MonoBehaviour
         return bill[targetNum];
     }
 
-    public void DestroyBill()
+    public void DestroyBill(GameObject obj)
     {
-        if (bill.Count < 0) return;
-        GameObject target = GetBillObj();
-        bill.Remove(target);
-        Destroy(target);
+        if (bill.Count < 0 || !bill.Contains(obj)) return;
+        //GameObject target = GetBillObj();
+        bill.Remove(obj);
+        //Destroy(target);
     }
-
 }
