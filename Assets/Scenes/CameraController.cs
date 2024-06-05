@@ -30,7 +30,10 @@ public class CameraController : MonoBehaviour
         pastPos = currentPos;
 
 
+
         //------カメラの回転------
+
+        /*
 
         // マウスの移動量を取得
         float mx = Input.GetAxis("Mouse X");
@@ -48,6 +51,6 @@ public class CameraController : MonoBehaviour
         {
             // 回転軸はカメラ自身のX軸
             transform.RotateAround(player.transform.position, transform.right, -my);
-        }
+        }*/
     }
 }

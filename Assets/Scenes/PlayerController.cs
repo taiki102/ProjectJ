@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float moveSpeedIn;//プレイヤーの移動速度を入力
 
-
     Rigidbody playerRb;//プレイヤーのRigidbody
 
     Vector3 moveSpeed;//プレイヤーの移動速度
